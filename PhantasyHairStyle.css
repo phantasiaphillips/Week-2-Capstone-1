@@ -167,9 +167,7 @@ p{
     padding-right: 25px;
 }
 .row-2{
-    justify-content: space-between;
-    margin: 25px 5px;
-    flex-wrap: wrap;
+    display: flex;
 }
 .products{
     width: 80%;
