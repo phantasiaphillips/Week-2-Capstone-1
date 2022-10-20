@@ -91,13 +91,13 @@ p{
 .col-3 img{
     width: 100%;
 }
-.small-container{
+.small-container .homeInfo{
     max-width: 1080px;
-    margin: auto;
+    margin: 25px 25px 25px 25px;
     padding-left: 25px;
     padding-right: 25px;
 }
-.small-container{
+.small-container .homeInfo{
     text-align: justify;
     padding: auto;
 }
