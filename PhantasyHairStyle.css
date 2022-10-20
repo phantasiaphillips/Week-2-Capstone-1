@@ -268,7 +268,7 @@ p{
     padding: 0;
     box-sizing: border-box;
 }
-.center {
+.LoginSignup{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -277,18 +277,18 @@ p{
     background: #e3a1d5;
     border-radius: 10px;
 }
-.center h4{
+.LoginSignup h4{
     text-align: center;
     padding: 0 0 20px 0;
-    border-bottom: 1px solid #ff69b4;
+    border-bottom: 1px solid #000;
 }
-.center .form{
+.LoginSignup .form2Example1{
     padding: 0 40px;
     box-sizing: border-box;
 }
-form .txt_field{
+.form2Example1 .txt_field{
     position: relative;
-    border-bottom: 2px solid #e3a1d5;
+    border-bottom: 2px solid #fff;
     margin: 30px 0;
 }
 .txt_field input{
@@ -309,7 +309,7 @@ form .txt_field{
     font-size: 16px;
     pointer-events: none;
 }
-.center .input .btn{
+.LoginSignup .input .btn{
     border: 1px solid #e3a1d5;
     background: pink;
     color: #ff69b4;
