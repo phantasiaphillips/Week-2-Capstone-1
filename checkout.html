@@ -20,7 +20,7 @@
                 <ul>
                     <li><a href="PhantasiaPhillips_PhantasyHair.html">Home</a></li>
                     <li><a href="products.html">Shop</a></li>
-                    <li><a href="PhantasiaPhillips_PhantasyHair About.html">About</a></li>
+                    <li><a href="PhantasiaPhillips_PhantasyHair-About.html">About</a></li>
                     <li><a href="login.html">Login</a></li>
                     <li><a href="checkout.html">&#36;</a></li>
                 </ul>
@@ -30,45 +30,62 @@
 
 </div>    
 
-<div class="progress-checkout-container">
-    <div class="progress-step-container">
-        <div class="step-check"></div>
-        <span class="step-title">Shipping</span>
-    </div>
-    <div class="progress-step-container">
-        <div class="step-check"></div>
-        <span class="step-title">Payment</span>
-    </div>
-    <div class="progress-step-container">
-        <div class="step-check"></div>
-        <span class="step-title">Review</span>
-    </div>
-</div>
-
-<div class="form-container">
-    <h5 class="form-title">Payment Details</h5>
-    <form action="" class="checkout-form">
-        <div class="input-line">
-            <label for="name">Name on card</label>
-            <input1 type="text" name="" id="" placeholder="your name and surname">
-        </div>
-        <div class="input-line">
-            <label for="card">Card numbers</label>
-            <input2 type="text" name="card" id="card" placeholder="1111-2222-3333-4444">
-        </div>
-        <div class="input-container">
-            <div class="input-line">
-                <label for="date">Expiring Date</label>
-                <input3 type="text" name="date" id="date" placeholder="10-22">
-            </div>
-            <div class="input-line">
-                <label for="cvc">CVC</label>
-                <input4 type="text" name="cvc" id="cvc" placeholder="***">
-            </div> 
-        </div>
-
-        <input5 type="button" value="Complete Purchase">
-    </form>
+<div class="container-fluid">
+	<div class="row justify-content-center">
+			<div class="card my-4 p-3">
+				<div class="row main">
+					<div class="col-12"><span>Cart</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>Shipping confirmation</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>Credit card checkout</span></div>
+				</div>
+				
+					<div class="row justify-content-center mrow">
+						<div class="col-12">
+							<img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" width="35px" height="35px"/>
+							<img src="https://img.icons8.com/color/48/000000/visa.png" width="35px" height="35px"/>
+							<img src="https://img.icons8.com/color/48/000000/paypal.png" width="35px" height="35px"/>
+						</div>
+					</div>
+					<form class="form-card">
+					<div class="row">
+						<div class="col-12">
+							<div class="form-group">
+    						<input type="text" class="form-control p-0" id="number" required><label class="form-control-placeholder p-0" for="number">CardNumber</label>
+ 						</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<div class="form-group">
+    						<input type="text" class="form-control p-0" id="name" required><label class="form-control-placeholder p-0" for="name">Cardholder'sName</label>
+ 						</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 col-12">
+							<div class="form-group">
+    							<input type="text" class="form-control p-0" id="sdate" required><label class="form-control-placeholder p-0" for="sdate">StartDate</label>
+ 							</div>
+						</div>
+						<div class="col-sm-4 col-12">
+							<div class="form-group">
+    							<input type="text" class="form-control p-0" id="expdate" required><label class="form-control-placeholder p-0" for="expdate">ExpirationDate</label>
+ 							</div>
+						</div>
+						<div class="col-sm-4 col-12">
+							<div class="form-group">
+    							<input type="password" class="form-control p-0" id="passw" required><label class="form-control-placeholder p-0" for="passw">CVV</label>
+						</div>
+						</div>
+					</div>
+					<div class="row mb-2">
+						<div class="col-sm-12">
+							<button type="button" class="btn btn-primary btn-block">Pay</button>
+						</div>
+					</div>
+					
+				</form>
+					
+			</div>
+		</div>
 </div>
 
 
