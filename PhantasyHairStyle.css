@@ -320,6 +320,9 @@ p{
     border-radius: 3px;
     outline: none;
 }
+.LoginSignup .form-outline mb-4{
+    color: #000;
+}
 
 /*-------- Checkout Page --------*/
 *{
@@ -328,20 +331,21 @@ p{
     box-sizing: border-box;
     transition: 0.5s;
 }
-.progress-checkout-container{
+.container-fluid{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 60%;
+    
 }
-.progress-step-container{
+.container-fluid{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.step-check{
-    background-color: lightpink;
+.card my-4 p-3{
+    background-color: #000;
     height: 30px;
     width: 30px;
     border-radius: 30px;
@@ -349,24 +353,24 @@ p{
     position: relative;
 }
 
-.progress-step-container:nth-of-type(3) .step-check::after{
+.card my-4 p-3:nth-of-type(3) .step-check::after{
     display: none;
 }
 
-.progress-step-container:nth-of-type(3) .step-check{
+.card my-4 p-3:nth-of-type(3) .step-check{
     background-image: none;
     background-color: #fff;
-    border: #e3a1d5;
+    border: #000;
 }
 
-.progress-step-container:nth-of-type(2) .step-check::after{
+.card my-4 p-3:nth-of-type(2) .step-check::after{
     background-color: #e3a1d5;
 }
 
-.progress-step-container:nth-of-type(2) .step-check{
+.card my-4 p-3:nth-of-type(2) .step-check{
     background-image: none;
     background-color: white;
-    border: #e3a1d5;
+    border: #000;
 }
 
 .step-check::after{
@@ -463,5 +467,19 @@ input[type="button"]{
 input[type="button"]:hover{
     background-color: #fff;
 }
+
+.row main{
+    background-origin: padding-box;
+    border-color: #000;
+    border-width: medium;
+}
+.container-fluid{
+    background: radial-gradient(#fff,#ff69b4);
+    align-items: center;
+    text-align: center;
+    margin: 100 100 100 100px;
+}
+
+
 
 
