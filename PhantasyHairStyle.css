@@ -342,7 +342,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .card my-4 p-3{
     background-color: #000;
@@ -479,7 +479,15 @@ input[type="button"]:hover{
     text-align: center;
     margin: 100 100 100 100px;
 }
-
-
+.container-fluid .form-card{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.form-card .col-12{
+    display: flex;
+    align-items: flex-start;
+}
 
 
